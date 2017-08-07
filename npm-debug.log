@@ -1,0 +1,34 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.1
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle animal-adoption-app@0.0.0~prestart: animal-adoption-app@0.0.0
+6 silly lifecycle animal-adoption-app@0.0.0~prestart: no script for prestart, continuing
+7 info lifecycle animal-adoption-app@0.0.0~start: animal-adoption-app@0.0.0
+8 verbose lifecycle animal-adoption-app@0.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle animal-adoption-app@0.0.0~start: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\saaala\Desktop\playground\animalAdoption\animal-adoption-app\node_modules\.bin;C:\xampp\mysql\bin;C:\Windows\System32;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Python27;C:\Ruby23\bin;C:\Users\saaala\AppData\Local\Microsoft\WindowsApps;C:\Users\saaala\AppData\Local\atom\bin;C:\xampp\php;C:\Users\saaala\AppData\Local\ComposerSetup\bin;C:\Users\saaala\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Java\jre1.8.0_102\bin;C:\Users\saaala\AppData\Local\Programs\Git\cmd;C:\Users\saaala\AppData\Local\Programs\Git\mingw64\bin;C:\Users\saaala\AppData\Local\Programs\Git\usr\bin;C:\Users\saaala\AppData\Roaming\npm;C:\Python27\Scripts
+10 verbose lifecycle animal-adoption-app@0.0.0~start: CWD: C:\Users\saaala\Desktop\playground\animalAdoption\animal-adoption-app
+11 silly lifecycle animal-adoption-app@0.0.0~start: Args: [ '/d /s /c', 'ng serve' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1029:11)
+12 verbose stack     at process.kill (internal/process.js:188:13)
+12 verbose stack     at process.listener (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:95:15)
+12 verbose stack     at emitNone (events.js:86:13)
+12 verbose stack     at process.emit (events.js:188:7)
+12 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:155:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:215:44)
+13 verbose cwd C:\Users\saaala\Desktop\playground\animalAdoption\animal-adoption-app
+14 error Windows_NT 10.0.14393
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+16 error node v7.7.1
+17 error npm  v4.1.2
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
